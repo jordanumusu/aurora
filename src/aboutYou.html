@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Resume</title>
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+<body class="bg-slate-50">
+    <header>
+        <nav>
+            <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-50 flex justify-between py-8">
+                <div class="relative z-10 flex items-center gap-16">
+                    <a aria-label="Home" href="/">
+                        <h1 class="text-black font-semibold text-2xl">✧ Aurora</h1>
+                    </a>
+                    <div class="hidden lg:flex lg:gap-10"><a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="/#about"><span class="relative z-10">How Does It Work?</span></a><a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="/#donate"><span class="relative z-10">Donate ❤️</span></a><a class="relative -my-2 -mx-3 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 hover:text-gray-900 hover:delay-[0ms]" href="/dist/aboutYou.html"><span class="relative z-10">Your Resume</span></a></div>
+            </div>
+            <div class="flex items-center gap-6">
+                <div class="lg:hidden" data-headlessui-state>
+                    <button class="relative z-10 -m-2 inline-flex items-center rounded-lg stroke-gray-900 p-2 hover:bg-gray-200/50 hover:stroke-gray-600 active:stroke-gray-900 [&:not(:focus-visible)]:focus:outline-none" aria-label="Toggle site navigation" id="headlessui-popover-button-:r0:" type="button" aria-expanded="false" data-headlessui-state>
+                        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" class="h-6 w-6"><path d="M5 6h14M5 18h14M5 12h14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </button>
+                </div>
+                <a class="justify-center rounded-lg border py-[calc(theme(spacing.2)-1px)] px-[calc(theme(spacing.3)-1px)] text-sm outline-2 outline-offset-2 transition-colors border-gray-300 text-gray-700 hover:border-gray-400 active:bg-gray-100 active:text-gray-700/80 hidden lg:block" href="/login">Sign Out</a>
+            </div>
+        </div>
+        </nav>
+    </header>
+
+    <div class="mx-auto max-w-7xl lg:px-8 py-8">
+        <div class="flex items-stretch gap-x-20">
+            <a>
+                <h1 class="font-bold" id="mainTitle">Hello World!</h1>
+                <br />
+                <label class="font-semibold" type-='text'>Resume Here</label>
+                <br />
+                <input id='resumeBefore' type="text" placeholder="Input Here">
+                <br />
+                <br />
+                <label class="font-semibold" type-='text'>Job Description Here</label>
+                <br />
+                <input id='jobDesc' type="text" placeholder="Input Here">
+                <br />
+                <br />
+                <button id="submitInfo" class="rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors bg-gray-800 text-white hover:bg-gray-900">Submit</button>
+            </a>
+            <a class="bg-white p-4 rounded-lg">
+                <h1>This is where the final output will be pasted into for users to copy. This is where the final output will be pasted into for users to copy. This is where the final output will be pasted into for users to copy.This is where the final output will be pasted into for users to copy. This is where the final output will be pasted into for users to copy. This is where the final output will be pasted into for users to copy.This is where the final output will be pasted into for users to copy. This is where the final output will be pasted into for users to copy. This is where the final output will be pasted into for users to copy.</h1>
+                <br />
+                <br />
+                <button id="regenerate" class="rounded-lg py-2 px-3 text-sm font-semibold outline-2 outline-offset-2 transition-colors bg-gray-800 text-white hover:bg-gray-900">Regenerate</button>
+            </a>
+        </div>
+    </div>
+
+<script src="aboutYou.js"></script>
+</body>
+</html>
